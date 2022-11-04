@@ -15,7 +15,7 @@ return one - two;
 var first = parseInt(prompt("Enter first digit: "));
 var second = parseInt(prompt("Enter second digit: "));
 var difference = first - second;
-alert(difference);
+alert("Your difference is " + difference);
 
 //multiplication function
 function multiply(first, second){
@@ -25,4 +25,4 @@ var first = parseInt(prompt("Enter first number"));
 var second = parseInt(prompt("Enter second number"));
 var product = multiply(first, second);
 
-alert(product);
+alert("Your product is " + product);
