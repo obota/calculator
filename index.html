@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Birthday & Name Calculator</title>
   </head>
   <body>
     <h1>Birthday and Name Calculator</h1>
     <p>
-      This application calculates the day fo the week and outputs your name
+      This application calculates the day of the week and outputs your name
       based on your Birthday.<br />Try it Now!
     </p>
     <form>
@@ -14,11 +16,13 @@
       ><br />
       <input type="date" /><br /><br />
       <label><b>What's your Gender?</b></label
-      ><br />
-      <label for="male">Male</label>
-      <input type="radio" id="male" name="" value="Male" /><br />
-      <label for="female">Female</label>
-      <input type="radio" id="female" value="Female" />
+      ><br /><select>
+        <option value="male">Male</option>
+        <br />
+        <label for="female">Female</label>
+        <option value="female">Female</option>
+      </select><br>
+      <input type="submit" value="Submit">
     </form>
     <script src="js/scipts.js"></script>
   </body>
