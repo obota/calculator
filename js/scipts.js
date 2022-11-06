@@ -1,104 +1,66 @@
-// //Addition function
-// function toAdd(one,two){
-//     return one + two;
-// }
-// var first = parseInt(prompt("Enter first digit: "));
-// var second = parseInt(prompt("Enter second digit: "));
-// var addition = toAdd(first,second);
-// alert("Your sum is " + addition);
-
-
-// //subtraction function
-// var subtract = function(one,two){
-// return one - two;
-// }
-// var first = parseInt(prompt("Enter first digit: "));
-// var second = parseInt(prompt("Enter second digit: "));
-// var difference = first - second;
-// alert("Your difference is " + difference);
-
-// //multiplication function
-// function multiply(first, second){
-//     return first * second;
-// };
-// var first = parseInt(prompt("Enter first number"));
-// var second = parseInt(prompt("Enter second number"));
-// var product = multiply(first, second);
-
-// alert("Your product is " + product);
-
-// function drive(speed, direction){
-//     return speed + direction;
-// };
-
-// var speed1 = "30km/h";
-// var direction1 = "right";
-// var speed2 = "50km/h";
-// var direction2 = "left";
-
-// alert("Go " + speed1 + direction1);
-// alert("Go "+ speed2 + direction2);
-
-
-// //odd number calculator 
-// const number = parseInt(prompt("Enter Number "));
-
-// if (number%2 == 0){
-//     alert("The number is even");
-// }
-// else{
-//     alert("The number is odd");
-// };
-
-// //food calculator
-// const food = prompt("What food would you like to be served? ");
-
-// if (food == "Burger" ){
-//     alert("Here is some burger for you. Anything Else?");
-//     const anything = prompt("");
-//     alert("You have ordered " + anything);
-// }
-// else{
-//     alert("Sorry, we have no food at the moment. Check tomorrow");
-// }
-
-// //marks calculator
-// const marks = parseInt(prompt("Enter your final marks "));
-
-// if (marks < 0){
-// alert("Please input a mark more than 0");    
-// }
-// if (marks <= 20){
-//     alert("Your final Grade is E");
-// }
-// else if (marks <= 39){
-//     alert("Your final Grade is D");
-// }
-// else if (marks <= 59){
-//     alert("Your final Grade is C");
-// }
-// else if (marks <= 79){
-//     alert("Your final Grade is B");
-// }
-// else if (marks <= 100){
-//     alert("Your final Grade is A");
-// }
-// else {
-//     alert("Your marks is out of range. Normal range is between 0 and 100");
-// }
-
-// //Months
-// var months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
-// alert("We're in the month of " + months[10]);
-// var monthsLast = months.pop();
-// var reverseMonths = months.reverse();
-// // alert(monthsLast);
-// // alert(reverseMonths[0]);
-// var addMonth = []
-// var added = addMonth.push("Valentines");
-// var added2 = addMonth.push("JoyGardens");
-// alert(addMonth[0]);
-
-//Birthday and Name Calculator
+//get day of week
 var dayOfWeek = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
 
+//get gender
+function actualName(){
+var gender = document.getElementById("form").element[0].value;
+    alert(gender);
+}
+
+//Calculate name
+if (dayOWeek == "Sunday"){
+    if (gender == "Male"){
+        alert("Your name is Kwasi");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Akosua");
+    }
+}
+else if (dayOWeek == "Monday"){
+    if (gender == "Male"){
+        alert("Your name is Kwadwo");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Adwoa");
+    }
+}
+else if (dayOWeek == "Tuesday"){
+    if (gender == "Male"){
+        alert("Your name is Kwabena");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Abenaa");
+    }
+}
+else if (dayOWeek == "Wednesday"){
+    if (gender == "Male"){
+        alert("Your name is Kwaku");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Akua");
+    }
+}
+else if (dayOWeek == "Thursday"){
+    if (gender == "Male"){
+        alert("Your name is Yaw");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Yaa");
+    }
+}
+else if (dayOWeek == "Friday"){
+    if (gender == "Male"){
+        alert("Your name is Kofi");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Afua");
+    }
+}
+else if (dayOWeek == "Saturday"){
+    if (gender == "Male"){
+        alert("Your name is Kwame");
+    }
+    else if (gender == "Female"){
+        alert("Your name is Ama");
+    }
+}
