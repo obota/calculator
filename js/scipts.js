@@ -87,14 +87,16 @@
 //     alert("Your marks is out of range. Normal range is between 0 and 100");
 // }
 
-//Months
-var months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
-alert("We're in the month of " + months[10]);
-var monthsLast = months.pop();
-var reverseMonths = months.reverse();
-// alert(monthsLast);
-// alert(reverseMonths[0]);
-var addMonth = []
-var added = addMonth.push("Valentines");
-var added2 = addMonth.push("JoyGardens");
-alert(addMonth[0]);
+// //Months
+// var months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+// alert("We're in the month of " + months[10]);
+// var monthsLast = months.pop();
+// var reverseMonths = months.reverse();
+// // alert(monthsLast);
+// // alert(reverseMonths[0]);
+// var addMonth = []
+// var added = addMonth.push("Valentines");
+// var added2 = addMonth.push("JoyGardens");
+// alert(addMonth[0]);
+
+//Birthday and Name Calculator
