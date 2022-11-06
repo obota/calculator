@@ -2,7 +2,7 @@
 var dayOfWeek = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
 
 //get gender
-function actualName(){
+var getGender =function(){
 var gender = document.getElementById("form").element[0].value;
     alert(gender);
 }
