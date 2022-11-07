@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link href="css/styles.css" rel="stylesheet" />
     <title>Birthday & Name Calculator</title>
   </head>
   <body>
+    
     <h1>Birthday and Name Calculator</h1>
     <p>
       This application calculates the day of the week and outputs your name
       based on your Birthday.<br />Try it Now!
     </p>
+    <p>Good afternnoon</p>
     <div id="form" name="myName" value="">my name is Dennis</div>
     <form>
-      <label><b>Enter your Birthday</b></label
-      ><br />
-      <input type="date" /><br /><br />
-      <label><b>What's your Gender?</b></label
-      ><br /><select>
-        <option value="male">Male</option>
-        <br />
-        <label for="female">Female</label>
-        <option value="female">Female</option>
-      </select><br>
+      <label><b>Enter your Birthday</b></label><br />
+      <input type="date" id="myDate" value="2022-02-09">
+
+      <label for="gender">What's your Gender?</label><br/>
+      <select id="gender" name="gender">
+      <option value="male">Male</option><br />
+      <option value="female">Female</option>
+      </select>
+      <br>
+
       <input type="submit" value="Get my Akan Name" onclick="getGender()">
+
     </form>
     <script src="js/scipts.js"></script>
   </body>
