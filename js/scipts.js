@@ -10,13 +10,12 @@ function getGender() {
     "Based on your gender being a " +
       gender +
       " and " +
-      "your birth day of, " +
+      "your birth day of " +
       birthDate +
-      " your Akan name is " +
+      ", your Akan name is " +
       akan
   );
 }
-getGender();
 
 //Calculate name
 if (dayOWeek == "Sunday") {
